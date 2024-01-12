@@ -1,6 +1,6 @@
 name: 'action to cach dep'
 description: 'action to cach rhe dependences'
-run:
+runs:
   using: 'composite'
   steps:
     - name: Cache dependencies
