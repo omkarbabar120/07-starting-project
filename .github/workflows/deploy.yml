@@ -14,7 +14,9 @@ jobs:
         with:
           caching: 'false'
       - name: Lint code
-        run: npm run lint
+        run: |
+          npm run lint
+          echo "hello"
   test:
     runs-on: ubuntu-latest
     steps:
