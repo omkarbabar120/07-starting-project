@@ -9,8 +9,8 @@ jobs:
     steps:
       - name: Get code
         uses: actions/checkout@v3
-      - name: cach custom action
-        uses: ./.github/actions/dep
+      - name: action to cach dep
+        uses: ./.github/actions/dep/action.yml
       - name: Lint code
         run: npm run lint
   test:
